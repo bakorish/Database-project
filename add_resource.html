@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Resource</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Add AI Learning Resource</h2>
+        <form action="add_resource.php" method="POST">
+            <input type="text" name="title" placeholder="Resource Title" required>
+            <input type="text" name="type" placeholder="Type (e.g., Course, Article, Video)" required>
+            <input type="text" name="platform" placeholder="Platform (e.g., Coursera, YouTube)" required>
+            <button type="submit">Add Resource</button>
+        </form>
+        <p><a href="dashboard.html">Back to Dashboard</a></p>
+    </div>
+
+</body>
+
+</html>
